@@ -51,7 +51,7 @@ const VenueLocation = () => {
         >
           <div className="relative h-96">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15193.506638181652!2d83.2016005!3d17.8209694!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3967929d60cb3d%3A0xf732cd47ea251978!2sThandra%20paparayudu%20funtion%20hall!5e0!3m2!1sen!2sin!4v1741187501612!5m2!1sen!2sin" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.8706663757753!2d83.2107889!3d17.7977745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39675049b1fc61%3A0x33da12f3e5df7e2c!2sRk%20function%20hall!5e0!3m2!1sen!2sin!4v1743531187831!5m2!1sen!2sin"
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
@@ -63,8 +63,8 @@ const VenueLocation = () => {
             
           </div>
         </motion.div>
-{/* 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <motion.div 
             variants={itemVariants}
             className="bg-white p-6 rounded-lg shadow-md"
@@ -192,7 +192,7 @@ const VenueLocation = () => {
               <p className="text-sm text-gray-600">18 km - Iconic monument and bazaar</p>
             </div>
           </div>
-        </motion.div> */}
+        </motion.div>  */}
       </motion.div>
     </section>
   );
